@@ -1,3 +1,12 @@
+body {
+    background-color: gray;
+}
+
+#container {
+    height: 3000px;
+    background-color: gray;
+}
+
 p {
     color: white;
     font-size: 2em;
@@ -7,10 +16,15 @@ p {
 .boxes {
     width: 200px;
     height: 200px;
+    border-radius: 100px;
+    opacity: .5;
 }
 
 #box1 {
     background-color: purple;
+    position: fixed;
+    left: 250px;
+    top: 75px;
 }
 
 #box2 {
