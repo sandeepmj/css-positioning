@@ -11,10 +11,18 @@ p {
 
 #box1 {
     background-color: purple;
+    position: relative;
+    left: 180px;
+    top: 60px;
+    z-index: 1;
 }
 
 #box2 {
     background-color: red;
+    position: relative;
+    /* if you turn off positioning, this no longer on top*/
+    left: 160px;
+    z-index: 2;
 }
 
 #box3 {
