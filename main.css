@@ -5,6 +5,7 @@ body {
 #container {
     height: 3000px;
     background-color: gray;
+    position: relative;
 }
 
 p {
@@ -16,21 +17,31 @@ p {
 .boxes {
     width: 200px;
     height: 200px;
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     opacity: .5;
 }
 
 #box1 {
-    background-color: purple;
-    position: fixed;
-    left: 250px;
-    top: 75px;
+    background-color: green;
+    /*position: fixed;*/
+    /*left: 250px;
+    top: 75px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #box2 {
     background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #box3 {
     background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
