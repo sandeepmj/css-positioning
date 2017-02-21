@@ -11,6 +11,7 @@ p {
 
 #box1 {
     background-color: purple;
+    float: right;
 }
 
 #box2 {
