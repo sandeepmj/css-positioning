@@ -1,1 +1,1 @@
-# Examples of CSS Positioning, Static, Relative, Aboslute and Fixed
+# Examples of CSS Positioning, Static, Relative, Absolute and Fixed
