@@ -12,12 +12,17 @@ p {
 #box1 {
     background-color: purple;
     float: right;
+    /*clear: both;*/
 }
 
 #box2 {
     background-color: red;
+    /*float: right;*/
+    /*clear: both;*/
 }
 
 #box3 {
     background-color: blue;
+    /*float: right;*/
+    /*clear: both;*/
 }
